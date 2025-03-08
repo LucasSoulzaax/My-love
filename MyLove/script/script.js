@@ -9,7 +9,7 @@ const btn = document.querySelector("#btn")
 btn.addEventListener("click", (event)=>{
     event.preventDefault();
   if(username.value.toLowerCase() === "hulk" && password.value === "16062000"){
-    window.location.href = "./principio.html";
+    window.location.href = "MyLove/templates/principio.html";
 
    
   
